@@ -1,0 +1,27 @@
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# React build files
+frontend/build/
+frontend/dist/
+backend/build/
+
+# Testing
+coverage/
+frontend/coverage/
+backend/coverage/
+
+# Git metadata backup
+frontend-git-backup/
+
+# Miscellaneous
+.DS_Store
+*.log
