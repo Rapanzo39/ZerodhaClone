@@ -18,22 +18,22 @@ function Footer() {
                     </div>
                 <div className='col'>
                     <p>Company</p> 
-                            <a className="text-muted text-decoration-none" href="">About</a><br />
-                            <a className="text-muted text-decoration-none" href="">Products</a><br />    
-                            <a className="text-muted text-decoration-none" href="">Pricing</a><br />
-                            <a className="text-muted text-decoration-none" href="">Referral program</a><br />
-                            <a className="text-muted text-decoration-none" href="">Careers</a><br /> 
-                            <a className="text-muted text-decoration-none" href="">Zerodha.tech</a><br />
-                            <a className="text-muted text-decoration-none" href="">Press & Media</a><br />               
-                            <a className="text-muted text-decoration-none" href="">Zerodha Cares (CSR)</a><br />        
+                            <a className="text-muted text-decoration-none" href="/">About</a><br />
+                            <a className="text-muted text-decoration-none" href="/">Products</a><br />    
+                            <a className="text-muted text-decoration-none" href="/">Pricing</a><br />
+                            <a className="text-muted text-decoration-none" href="/">Referral program</a><br />
+                            <a className="text-muted text-decoration-none" href="/">Careers</a><br /> 
+                            <a className="text-muted text-decoration-none" href="/">Zerodha.tech</a><br />
+                            <a className="text-muted text-decoration-none" href="/">Press & Media</a><br />               
+                            <a className="text-muted text-decoration-none" href="/">Zerodha Cares (CSR)</a><br />        
                 </div>
                 <div className='col'>
                      <p>Support</p>
-                        <a className="text-muted text-decoration-none" href="">Contact</a><br />
-                        <a className="text-muted text-decoration-none" href="">Support Portal</a><br />
-                        <a className="text-muted text-decoration-none" href="">Z-Connect blog</a><br />
-                        <a className="text-muted text-decoration-none" href="">List of charges</a><br />
-                        <a className="text-muted text-decoration-none" href="">Downlods & resources</a> <br /> 
+                        <a className="text-muted text-decoration-none" href="/">Contact</a><br />
+                        <a className="text-muted text-decoration-none" href="/">Support Portal</a><br />
+                        <a className="text-muted text-decoration-none" href="/">Z-Connect blog</a><br />
+                        <a className="text-muted text-decoration-none" href="/">List of charges</a><br />
+                        <a className="text-muted text-decoration-none" href="/">Downlods & resources</a> <br /> 
                 </div>
                 <div className='col'>
                     <p>Account</p>
