@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 3d1a0e95dd9edde9273380ec04d67f4ab14db20e Kaushalya Shahapure <kaushalyashahapure258@gmail.com> 1786469487 +0530	commit (initial): Initialize project using Create React App
+3d1a0e95dd9edde9273380ec04d67f4ab14db20e b8155e7929c5f2a8b1be9643b96c9c1360fbcb10 Kaushalya Shahapure <kaushalyashahapure258@gmail.com> 1786472707 +0530	commit: Initial setup
+b8155e7929c5f2a8b1be9643b96c9c1360fbcb10 70d6983084f168879809a5ef9722a2d311a7eb8c Kaushalya Shahapure <kaushalyashahapure258@gmail.com> 1787090296 +0530	commit: component struture setup
+70d6983084f168879809a5ef9722a2d311a7eb8c b4037453bf06e2b4f4cd9bd3a09b585f737e700d Kaushalya Shahapure <kaushalyashahapure258@gmail.com> 1790141863 +0530	commit: created files and linked cdn to project
