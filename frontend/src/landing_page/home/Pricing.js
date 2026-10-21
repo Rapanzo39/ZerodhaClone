@@ -9,7 +9,7 @@ function Pricing () {
                     <p className='text-muted'>We pioneered the concept of discount broking and price transparency in India.
                         flat and no hidden charges.
                     </p>
-                    <a href='' className='mx-5' style={{textDecoration:"none"}}>See pricing <i class="fa-solid fa-arrow-right-long"> </i></a>
+                    <a href='/' className='mx-5' style={{textDecoration:"none"}}>See pricing <i class="fa-solid fa-arrow-right-long"> </i></a>
                 </div>
                 <div className='col-2'></div>
                 <div className='col-6 mb-5'>

@@ -1,17 +1,18 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg border-bottom" style={{ backgroundColor: "#ffffff" }}>
       <div className="container p-2">
-        <a className="navbar-brand" href="/home">
+        <Link className="navbar-brand" to="/home">
           <img
             src="media/images/logo.svg"
             alt="Logo"
             style={{ width: "25%" }}
             className="d-inline-block align-text-top"
           />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -28,29 +29,29 @@ function Navbar() {
        
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/signup">
+              <Link className="nav-link active" aria-current="page" to="/signup">
                 Signup
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="/about">
+              <Link className="nav-link active" to="/about">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="/products">
+              <Link className="nav-link active" to="/product">
                 Products
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="/pricing">
+              <Link className="nav-link active" to="/pricing">
                 Pricing
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="/support">
+              <Link className="nav-link active" to="/support">
                 Support
-              </a>
+              </Link>
             </li>
            </ul>
         

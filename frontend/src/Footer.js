@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
    
@@ -10,43 +11,43 @@ function Footer() {
                         <img src='media/images/logo.svg' alt="Logo" style={{width:"50%"}} />
                         <p>&copy;2010 - 2026, Not Zerodha Broking Ltd. All rights reserved.</p>
                         <ul className='d-flex  gap-4' style={{fontSize: "20px", textAlign:"center"}}>
-                            <i className="fa-brands fa-x-twitter"></i>
-                            <i className="fa-brands fa-facebook"></i>
-                            <i className="fa-brands fa-instagram"></i>
-                            <i className="fa-brands fa-linkedin"></i>
+                            <Link className="text-muted text-decoration-none" to="https://twitter.com/zerodha"> <i className="fa-brands fa-x-twitter"></i> </Link>
+                            <Link className="text-muted text-decoration-none" to="https://www.facebook.com"> <i className="fa-brands fa-facebook"></i> </Link>
+                            <Link className="text-muted text-decoration-none" to="https://www.instagram.com"> <i className="fa-brands fa-instagram"></i> </Link>
+                            <Link className="text-muted text-decoration-none" to="https://www.linkedin.com/company/zerodha"> <i className="fa-brands fa-linkedin"></i> </Link>
                         </ul>
                     </div>
                 <div className='col'>
                     <p>Company</p> 
-                            <a className="text-muted text-decoration-none" href="/">About</a><br />
-                            <a className="text-muted text-decoration-none" href="/">Products</a><br />    
-                            <a className="text-muted text-decoration-none" href="/">Pricing</a><br />
-                            <a className="text-muted text-decoration-none" href="/">Referral program</a><br />
-                            <a className="text-muted text-decoration-none" href="/">Careers</a><br /> 
-                            <a className="text-muted text-decoration-none" href="/">Zerodha.tech</a><br />
-                            <a className="text-muted text-decoration-none" href="/">Press & Media</a><br />               
-                            <a className="text-muted text-decoration-none" href="/">Zerodha Cares (CSR)</a><br />        
+                            <Link className="text-muted text-decoration-none" to="/">About</Link><br />
+                            <Link className="text-muted text-decoration-none" to="/">Products</Link><br />    
+                            <Link className="text-muted text-decoration-none" to="/">Pricing</Link><br />
+                            <Link className="text-muted text-decoration-none" to="/">Referral program</Link><br />
+                            <Link className="text-muted text-decoration-none" to="/">Careers</Link><br /> 
+                            <Link className="text-muted text-decoration-none" to="/">Zerodha.tech</Link><br />
+                            <Link className="text-muted text-decoration-none" to="/">Press & Media</Link><br />               
+                            <Link className="text-muted text-decoration-none" to="/">Zerodha Cares (CSR)</Link><br />        
                 </div>
                 <div className='col'>
                      <p>Support</p>
-                        <a className="text-muted text-decoration-none" href="/">Contact</a><br />
-                        <a className="text-muted text-decoration-none" href="/">Support Portal</a><br />
-                        <a className="text-muted text-decoration-none" href="/">Z-Connect blog</a><br />
-                        <a className="text-muted text-decoration-none" href="/">List of charges</a><br />
-                        <a className="text-muted text-decoration-none" href="/">Downlods & resources</a> <br /> 
+                        <Link className="text-muted text-decoration-none" to="/">Contact</Link><br />
+                        <Link className="text-muted text-decoration-none" to="/">Support Portal</Link><br />
+                        <Link className="text-muted text-decoration-none" to="/">Z-Connect blog</Link><br />
+                        <Link className="text-muted text-decoration-none" to="/">List of charges</Link><br />
+                        <Link className="text-muted text-decoration-none" to="/">Downlods & resources</Link> <br /> 
                 </div>
                 <div className='col'>
                     <p>Account</p>
-                        <a className="text-muted text-decoration-none" href="/open-account">Open an account</a><br />
-                        <a className="text-muted text-decoration-none" href="/fund-transfer">fund transfer</a><br />
-                        <a className="text-muted text-decoration-none" href="/60-day-challenge">60 day challenge</a><br />
+                        <Link className="text-muted text-decoration-none" to="/open-account">Open an account</Link><br />
+                        <Link className="text-muted text-decoration-none" to="/fund-transfer">fund transfer</Link><br />
+                        <Link className="text-muted text-decoration-none" to="/60-day-challenge">60 day challenge</Link><br />
                 </div>
                 <div className='col'>
                     <p>Quick Links</p>
-                        <a className="text-muted text-decoration-none" href="/open-account">  Upcoming IPOs</a><br />
-                        <a className="text-muted text-decoration-none" href="/fund-transfer">Brokerage charges</a><br />
-                        <a className="text-muted text-decoration-none" href="/60-day-challenge">Market holidays</a><br />
-                        <a className="text-muted text-decoration-none" href="/60-day-challenge">Calculator</a><br />      
+                        <Link className="text-muted text-decoration-none" to="/open-account">  Upcoming IPOs</Link><br />
+                        <Link className="text-muted text-decoration-none" to="/fund-transfer">Brokerage charges</Link><br />
+                        <Link className="text-muted text-decoration-none" to="/60-day-challenge">Market holidays</Link><br />
+                        <Link className="text-muted text-decoration-none" to="/60-day-challenge">Calculator</Link><br />      
                 </div>
             </div>
                 <div className='mt-5 text-muted' style={{fontSize: "15px"}}>
@@ -58,11 +59,11 @@ function Footer() {
                        
                 </div>
                 <div className='d-flex justify-content-center gap-4 ' style={{fontSize: "20px", textAlign:"center"}}>
-                    <a className="text-muted text-decoration-none" href="/signup">Signup</a>
-                    <a className="text-muted text-decoration-none" href="/About">About</a>
-                    <a className="text-muted text-decoration-none" href="/product">Products</a>
-                    <a className="text-muted text-decoration-none" href="/pricing">Pricing</a>
-                    <a className="text-muted text-decoration-none" href="/support">Support</a>
+                    <Link className="text-muted text-decoration-none" to="/signup">Signup</Link>
+                    <Link className="text-muted text-decoration-none" to="/About">About</Link>
+                    <Link className="text-muted text-decoration-none" to="/product">Products</Link>
+                    <Link className="text-muted text-decoration-none" to="/pricing">Pricing</Link>
+                    <Link className="text-muted text-decoration-none" to="/support">Support</Link>
                 </div>
 
                 <div className='mt-5 text-muted' style={{fontSize: "14px", textAlign:"center"}}> <p>© 2026 Zerodha Clone. Built for learning & demonstration purposes. Built with ❤️ by Kaushalya </p> </div>
